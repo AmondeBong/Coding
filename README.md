@@ -9,9 +9,11 @@
 
 <br>git add 파일이름.확장자
 <br>git add . // 파일 전부 등록
-<br>git commit -m '설명' // 버전관리 코멘트
-<br>git push // 추가되거나 변경된 파일 원격 업로드
+<br>git commit -a : 모든 파일을 커밋한다.
+<br>           -F " ": commit_messagefile 커밋 메시지가 담긴 파일의 내용을 커밋한다.
+<br>           -m " ": commit_message 커밋 메시지를 넣는다.
 <br>git checkout 커밋아이디 // 이전버전으로 되돌리기
 <br>git log // commit한 내용 보기
 <br>git clone http // github 소스 다운
+<br>git push -u origin main / 추가되거나 변경된 파일 원격 업로드
 

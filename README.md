@@ -26,3 +26,4 @@
 <br> nano =  cmd에서 사용하는 에디터
 <br> ~ = 자신의 홈 디렉토리 
 <br> echo $PATH // 등록된 환경변수 확인
+<br> command+option+c // 경로(위치) 복사

@@ -1,3 +1,4 @@
+package JAVA1;
 public class Casting{
     public static void main(String[] args){
         double a = 1.1;

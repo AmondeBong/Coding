@@ -1,10 +1,15 @@
+import javax.swing.JOptionPane;
+
+import org.opentutorials.iot.DimmingLights;
 import org.opentutorials.iot.Elevator;
 import org.opentutorials.iot.Security;
 import org.opentutorials.iot.Lighting;
 
-public class OkJavaGoInHome{
+public class OkJavaGoInHomeInput{
     public static void main(String[] args){
-        String id = "JAVA APT 507";
+        //팝업창으로 id 받기
+        String id = JOptionPane.showInputDialog("Enter ID");
+        String bright = JOptionPane.showInputDialog("Enter a bringht value");
         //Elevator call
         Elevator myElevator = new Elevator(id);
         myElevator.callForUp(1);
@@ -18,5 +23,8 @@ public class OkJavaGoInHome{
         Lighting floorLamp = new Lighting(id +" / floor lamp");
         floorLamp.on();
 
+        DimmingLights moodLamp = new DimmingLights(id+" / mood lamp");
+        moodLamp.setBright(Double.parseDouble(bright));
+        moodLamp.on();
     }
 }

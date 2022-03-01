@@ -17,3 +17,12 @@
 <br>git clone http // github 소스 다운
 <br>git push -u origin main / 추가되거나 변경된 파일 원격 업로드
 
+# 터미널 명령어 정리[Mac OS] (22.03.01) 
+<br> pwd // 현재 자신의 위치
+<br> /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home //맥에서 자바의 위치
+<br> cd //change Directory 위치 변경
+<br> ls // ls = list 
+<br> path =  환경변수
+<br> nano =  cmd에서 사용하는 에디터
+<br> ~ = 자신의 홈 디렉토리 
+<br> echo $PATH // 등록된 환경변수 확인

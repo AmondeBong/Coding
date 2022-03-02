@@ -1,4 +1,4 @@
-package JAVA1;
+
 public class Hello5{
     public static void main(String[] args){
         System.out.println("Hello World!!"); // String char의 모음

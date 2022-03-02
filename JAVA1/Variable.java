@@ -1,4 +1,4 @@
-package JAVA1;
+
 public class Variable{
     public static void main(String[] args){
         int a = 1; // Number -> integer(정수)
